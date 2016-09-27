@@ -1,0 +1,93 @@
+package edu.cornell.ospmodel;
+
+public class Investigator {
+	private String PROJ_INV;
+	private String INVPROJ_PROJECT_ID;
+	private String INVPROJ_FULL_NAME;
+	private String INVPROJ_FIRST_NAME;
+	private String INVPROJ_MIDDLE_NAME;
+	private String INVPROJ_LAST_NAME;
+	private String INVPROJ_INVESTIGATOR_NETID;
+	private String INVPROJ_INVESTIGATOR_ROLE;
+	private String INVPROJ_DEPT_NAME;
+	private String INVPROJ_DEPT_ID;
+	private String INVPROJ_INVESTIGATOR_ID;
+	
+	public String getPROJ_INV() {
+		return PROJ_INV;
+	}
+	public void setPROJ_INV(String pROJ_INV) {
+		PROJ_INV = pROJ_INV;
+	}
+	public String getINVPROJ_PROJECT_ID() {
+		return INVPROJ_PROJECT_ID;
+	}
+	public void setINVPROJ_PROJECT_ID(String iNVPROJ_PROJECT_ID) {
+		INVPROJ_PROJECT_ID = iNVPROJ_PROJECT_ID;
+	}
+	public String getINVPROJ_FULL_NAME() {
+		return INVPROJ_FULL_NAME;
+	}
+	public void setINVPROJ_FULL_NAME(String iNVPROJ_FULL_NAME) {
+		INVPROJ_FULL_NAME = iNVPROJ_FULL_NAME;
+	}
+	public String getINVPROJ_FIRST_NAME() {
+		return INVPROJ_FIRST_NAME;
+	}
+	public void setINVPROJ_FIRST_NAME(String iNVPROJ_FIRST_NAME) {
+		INVPROJ_FIRST_NAME = iNVPROJ_FIRST_NAME;
+	}
+	public String getINVPROJ_MIDDLE_NAME() {
+		return INVPROJ_MIDDLE_NAME;
+	}
+	public void setINVPROJ_MIDDLE_NAME(String iNVPROJ_MIDDLE_NAME) {
+		INVPROJ_MIDDLE_NAME = iNVPROJ_MIDDLE_NAME;
+	}
+	public String getINVPROJ_LAST_NAME() {
+		return INVPROJ_LAST_NAME;
+	}
+	public void setINVPROJ_LAST_NAME(String iNVPROJ_LAST_NAME) {
+		INVPROJ_LAST_NAME = iNVPROJ_LAST_NAME;
+	}
+	public String getINVPROJ_INVESTIGATOR_NETID() {
+		return INVPROJ_INVESTIGATOR_NETID;
+	}
+	public void setINVPROJ_INVESTIGATOR_NETID(String iNVPROJ_INVESTIGATOR_NETID) {
+		INVPROJ_INVESTIGATOR_NETID = iNVPROJ_INVESTIGATOR_NETID;
+	}
+	public String getINVPROJ_INVESTIGATOR_ROLE() {
+		return INVPROJ_INVESTIGATOR_ROLE;
+	}
+	public void setINVPROJ_INVESTIGATOR_ROLE(String iNVPROJ_INVESTIGATOR_ROLE) {
+		INVPROJ_INVESTIGATOR_ROLE = iNVPROJ_INVESTIGATOR_ROLE;
+	}
+	public String getINVPROJ_DEPT_NAME() {
+		return INVPROJ_DEPT_NAME;
+	}
+	public void setINVPROJ_DEPT_NAME(String iNVPROJ_DEPT_NAME) {
+		INVPROJ_DEPT_NAME = iNVPROJ_DEPT_NAME;
+	}
+	public String getINVPROJ_DEPT_ID() {
+		return INVPROJ_DEPT_ID;
+	}
+	public void setINVPROJ_DEPT_ID(String iNVPROJ_DEPT_ID) {
+		INVPROJ_DEPT_ID = iNVPROJ_DEPT_ID;
+	}
+	public String getINVPROJ_INVESTIGATOR_ID() {
+		return INVPROJ_INVESTIGATOR_ID;
+	}
+	public void setINVPROJ_INVESTIGATOR_ID(String iNVPROJ_INVESTIGATOR_ID) {
+		INVPROJ_INVESTIGATOR_ID = iNVPROJ_INVESTIGATOR_ID;
+	}
+	@Override
+	public String toString() {
+		return INVPROJ_INVESTIGATOR_NETID + "\t" + INVPROJ_PROJECT_ID
+				+ "\t" + INVPROJ_FULL_NAME + "\t" + INVPROJ_FIRST_NAME
+				+ "\t" + INVPROJ_MIDDLE_NAME + "\t" + INVPROJ_LAST_NAME
+				+ "\t" + PROJ_INV + "\t"
+				+ INVPROJ_INVESTIGATOR_ROLE + "\t" + INVPROJ_DEPT_NAME + "\t"
+				+ INVPROJ_DEPT_ID + "\t" + INVPROJ_INVESTIGATOR_ID;
+	}
+	
+	
+}
